@@ -11,13 +11,13 @@ public class AreaCono {
         double H = input.nextDouble();
         System.out.println("Ingrese el radio: ");
         double R = input.nextDouble();
+        C = (H*2-R*2);
         SQRT = (float)Math.sqrt(C);
-        SQRT(H*2 - R*2);
-
-
         AT = 2 * (R * SQRT)/2;
         AC = (3.1416 * R * 2) / 2;
         area = AT + AC;
         System.out.println("El total es: " + area);
      }
 }
+
+//ejecuta de nuevo haber si te da un error
