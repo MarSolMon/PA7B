@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class OrdenarNumeros{
+public class CantidadesMayor{
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    int A, B, C, M;
+    int A, B, C, Mayor;
     System.out.println("Ingrese el primer numero");
     A = input.nextInt();
     System.out.println("Ingrese el segundo numero");
@@ -11,15 +11,17 @@ public class OrdenarNumeros{
     C = input.nextInt();
     if (A > B) {
       if (A > C) {
-        M = A;
+        Mayor = A;
       }else{
-        M = C;
+        Mayor = C;
       }
-    }else if (B > C) {
-        M = B;
+    }else{
+      if (B > C) {
+        Mayor = B;
       }else{
-        M = C;
+        Mayor = C;
       }
-    System.out.println("El numero mayor es: " + M);
+    }
+    System.out.println("El numero mayor es: " + Mayor);
   }
 }
