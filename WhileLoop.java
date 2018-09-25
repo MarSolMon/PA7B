@@ -15,7 +15,5 @@ public class WhileLoop{
         JOptionPane.showMessageDialog(null, "your guess is too low");
       }
     }
-
-
   }
 }
