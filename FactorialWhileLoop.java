@@ -11,6 +11,7 @@ public class FactorialWhileLoop{
       fact = fact * i;
       i++;
     }
-    JOptionPane.showInputDialog(null, "El factorial de: " + value + "es" + fact, "Calcular Factorial", JOptionPane.WARNING_MESSAGE);
+    JOptionPane.showInputDialog(null, "El factorial de: " + value + "es" + fact,
+    "Calcular Factorial", JOptionPane.WARNING_MESSAGE);
   }
 }
