@@ -1,7 +1,14 @@
 public class Course{
   private String courseName;
-  private String[] students = new String[100];
+  private String[] students = new String[100]; //Declaración de array
   private int numberOfStudents = 0;
+
+  public Course(){
+    
+  }
+  public Course(String courseName){
+    this.courseName = courseName;
+  }
 
   public String getCourseName(){
     return this.courseName;
@@ -14,7 +21,7 @@ public class Course{
     this.numberOfStudents ++;
   }
   public void dropStudent(String student){
-    //tarea para eliminar
+
   }
   public String[] getStudents(){
     return this.students;
